@@ -15,11 +15,17 @@ My notes are available on my website [Access Denied](https://rya-sge.github.io/a
 
 I also have a twitter account to monitor attacks on the Blockchain ecosystem ([ADCDIII](https://twitter.com/ADCDIII))
 
-I hope you can find your happiness among this content. If you have any questions, it is possible to contact me on my [Linkedin](https://ch.linkedin.com/in/ryan-sauge/en?trk=public_profile_locale-url).
+I hope you can find your happiness among this content. If you have any questions, it is possible to contact me on my [Linkedin](https://ch.linkedin.com/in/ryan-sauge/en?trk=public_profile_locale-url) or [X](https://x.com/ADCDIII).
 
-Before jumping on the crypto wagon, I have participated in my free time in Capture The Flags (CTFs) and solved challenges on [TryHackMe](https://tryhackme.com/p/Carcajou) and [Root Me](https://www.root-me.org).
+Before jumping on the crypto wagon, I have participated in my free time in Capture The Flags (CTFs) and solved challenges on [TryHackMe](https://tryhackme.com/p/Carcajou) and [Root Me](https://www.root-me.org/AccessDenied404?lang=eng).
+
+
+
+### Main article
 
 Here my main articles on Blockchain:
+
+
 
 As part of my work for Taurus:
 
@@ -33,7 +39,10 @@ Tokenization
 - [Making CMTAT Tokenization More Scalable and Cost-Effective with Proxy and Factory Contracts](https://www.taurushq.com/blog/cmtat-tokenization-deployment-with-proxy-and-factory/)
 - [Tokenization on Ethereum and EVM Blockchains: Which Smart Contract Should You Use?](https://www.taurushq.com/blog/tokenization-on-ethereum-and-evm-blockchains-which-smart-contract-should-you-use/)
 
+
+
 My main personal articles:
+
 - [RareSkills Solidity Interview Answers - Advanced](https://rya-sge.github.io/access-denied/2024/05/06/solidity-interview-question-rareskills-advanced/)
 - [How to build a blockchain oracle](https://rya-sge.github.io/access-denied/2024/04/16/build-blockchain-oracle/)
 - [Deep dive into MetaMask Secrets](https://rya-sge.github.io/access-denied/2023/07/20/metamask-secret/)
