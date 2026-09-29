@@ -22,7 +22,7 @@ author_profile: true
 - [Conditional Transfers with CMTAT & Taurus-CAPITAL: A Step-by-Step Guide](https://www.taurushq.com/blog/tokenization-conditionaltransfer-with-cmtat/) (2025)
 - [ERC-1400 for Tokenized Securities: Analysis and Deployment with Taurus-CAPITAL](https://www.taurushq.com/blog/erc-1400-for-tokenized-securities-analysis-and-deployment-with-taurus-capital/) (2025)
 - [Equity Tokenization: How to Pay Dividend On-Chain Using CMTAT](https://www.taurushq.com/blog/equity-tokenization-how-to-pay-dividend-on-chain-using-cmtat/) (2024)
-- [Token Transfer Management: How to Apply Restrictions with CMTAT and ERC-1404](https://www.taurushq.com/blog/token-transfer-management-how-to-apply-restrictions-with-cmtat-and-erc-1404/) (ERC-1404)
+- [Token Transfer Management: How to Apply Restrictions with CMTAT and ERC-1404](https://www.taurushq.com/blog/token-transfer-management-how-to-apply-restrictions-with-cmtat-and-erc-1404/) (2024)
 - [Making CMTAT Tokenization More Scalable and Cost-Effective with Proxy and Factory Contracts](https://www.taurushq.com/blog/cmtat-tokenization-deployment-with-proxy-and-factory/) (2024)
 - [Tokenization on Ethereum and EVM Blockchains: Which Smart Contract Should You Use?](https://www.taurushq.com/blog/tokenization-on-ethereum-and-evm-blockchains-which-smart-contract-should-you-use/) (2024)
 

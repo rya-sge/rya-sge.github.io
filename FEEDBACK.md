@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 32 done, 3 partially done, 15 open.
+**Progress:** 33 done, 3 partially done, 14 open.
 
 ## 1. High priority — visible on every page
 
@@ -56,7 +56,8 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 ## 4. Publications page (`_pages/publications.md`)
 
-- **4.a** ⬜ "Token Transfer Management … ERC-1404" has `(ERC-1404)` where the year should be (`publications.md:23`).
+- **4.a** ✅ "Token Transfer Management … ERC-1404" has `(ERC-1404)` where the year should be (`publications.md:23`).
+  - Done: year set to 2024.
 - **4.b** ⬜ Talks and slide decks are publications too; add a short "Talks" section linking to `/talks/` or list the four decks.
 - **4.c** ⬜ The personal blog section only lists five articles; if some newer ones (e.g. the Bitcoin keys, MPC and Winternitz OTS posts linked from the Black Alps talk page) matter, add them.
 - **4.d** ✅ The page title "Publications" with a section "My main personal articles" — consider renaming the nav item to "Articles" since there are no academic papers.
