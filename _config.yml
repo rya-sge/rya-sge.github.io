@@ -202,6 +202,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # template sample files: keep out of sitemap.xml
+  - scope:
+      path: "files/paper1.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "files/slides1.pdf"
+    values:
+      sitemap: false
   # _talks
   - scope:
       path: ""
