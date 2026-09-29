@@ -9,25 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* ### Bachelor of Science
-
-  - Degree: Bachelor of Science - BS, Information security
-  - Uni: [HEIG-VD](https://heig-vd.ch)
-  - Year: 2018 &mdash; 2022
-  - Association: Co-Founder and Member of the [Y-CTF](https://yctf.ch) Committee (CTF Club of HEIG-VD)
-  - Summary: The IS orientation trains engineers with advanced skills in security to give them a global "attack-defense" vision of computer systems. These specialists analyze the security of complex computer systems (threat analysis and intrusion tests), design secure architectures, select and develop the appropriate protection measures.
-  - Project
-
-  [Password manager](https://github.com/rya-sge/password-manager): Rust-based application to store passwords securely.
-
-  [D-flip flop](https://github.com/AMT-D-Flip-Flop/Authentication) (group project): Authentication microservice with Spring Boot Java
-
-  [Static site generator](https://github.com/rya-sge/generateur-site-statique-pellissier_ruckstuhl_sauge_viotti) (group project): developed in Java
-
-  [PHP angular project](https://github.com/rya-sge/PRO-Angular-Php) (group project): Development of a web application with Angular (front-end) and PHP (backend).
-
 Work experience
 ======
 ### Security engineer [12/2022 - present]
@@ -85,6 +66,25 @@ Conference speaking on CMTAT and security: EthCC 2026, BSA - EPFL Stablecoins & 
 - Company: Confidential
 - Position: Penetration Tester (external consultant / internship)
 - Summary: Security audit in a software company carried out as part of a course at HEIG-VD, about 200 hours performed
+
+Education
+======
+* ### Bachelor of Science
+
+  - Degree: Bachelor of Science - BS, Information security
+  - Uni: [HEIG-VD](https://heig-vd.ch)
+  - Year: 2018 &mdash; 2022
+  - Association: Co-Founder and Member of the [Y-CTF](https://yctf.ch) Committee (CTF Club of HEIG-VD)
+  - Summary: The IS orientation trains engineers with advanced skills in security to give them a global "attack-defense" vision of computer systems. These specialists analyze the security of complex computer systems (threat analysis and intrusion tests), design secure architectures, select and develop the appropriate protection measures.
+  - Project
+
+  [Password manager](https://github.com/rya-sge/password-manager): Rust-based application to store passwords securely.
+
+  [D-flip flop](https://github.com/AMT-D-Flip-Flop/Authentication) (group project): Authentication microservice with Spring Boot Java
+
+  [Static site generator](https://github.com/rya-sge/generateur-site-statique-pellissier_ruckstuhl_sauge_viotti) (group project): developed in Java
+
+  [PHP angular project](https://github.com/rya-sge/PRO-Angular-Php) (group project): Development of a web application with Angular (front-end) and PHP (backend).
 
 Skills
 ======
