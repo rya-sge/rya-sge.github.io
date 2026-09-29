@@ -7,9 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-Smart contract
-======
-#### CMTAT [Taurus SA / Solidity]
+[CMTA](#cmta) · [Taurus](#taurus) · [Hackathons](#hackathons) · [HEIG-VD](#heig-vd) · [Personal](#personal)
+
+## CMTA
+
+Open-source projects of the CMTAT ecosystem, developed as part of my work at Taurus SA for the Capital Markets and Technology Association (CMTA).
+
+#### CMTAT [Taurus SA / CMTA / Solidity]
 
 > Security token framework to tokenize financial instruments on Ethereum and EVM compatible blockchain.
 
@@ -56,6 +60,29 @@ Smart contract
 
 **Skills:** Solidity · Zama FHEVM · Fully Homomorphic Encryption · Security token
 
+#### CMTAT LayerZero [Taurus SA / CMTA / Solidity]
+
+> Example of how a CMTA Token can be bridged with LayerZero.
+
+- Role: Smart Contract Developer
+- Duration: 01/2026 &mdash; 02/2026
+- [GitHub project](https://github.com/CMTA/CMTAT-LayerZero)
+
+**Skills:** Solidity · LayerZero · Cross-chain bridge
+
+#### IncomeVault [Taurus SA / CMTA / Solidity]
+
+> IncomeVault to distribute dividend on-chain, build with CMTAT
+
+- Role: Smart Contract Developer
+- Duration: 12/2023 &mdash; 08/2024
+- [Github project](https://github.com/CMTA/IncomeVault)
+- Publish a blog post on Taurus blog describing the architecture: <a href="https://www.taurushq.com/blog/equity-tokenization-how-to-pay-dividend-on-chain-using-cmtat/">Equity Tokenization - How to Pay Dividend On-Chain Using CMTAT</a>
+
+**Skills:** Solidity · Smart Contracts · defi · Foundry · Stablecoin
+
+## Taurus
+
 #### Smart Wallet 7702 [Taurus SA / Solidity]
 
 > Smart wallet contract to which an EOA delegates its execution logic with EIP-7702.
@@ -73,16 +100,6 @@ Smart contract
   - ETH receiving (`receive`, `fallback`)
 
 **Skills:** Solidity · EIP-7702 · ERC-4337 · Account abstraction · Smart wallet
-
-#### CMTAT LayerZero [Taurus SA / CMTA / Solidity]
-
-> Example of how a CMTA Token can be bridged with LayerZero.
-
-- Role: Smart Contract Developer
-- Duration: 01/2026 &mdash; 02/2026
-- [GitHub project](https://github.com/CMTA/CMTAT-LayerZero)
-
-**Skills:** Solidity · LayerZero · Cross-chain bridge
 
 #### TERC-721 [Taurus SA / Solidity]
 
@@ -115,18 +132,7 @@ Smart contract
 
 **Skills:** Solidity · CCIP · Chainlink · cross-chain bridge · Stablecoin
 
-#### IncomeVault [Taurus SA / Solidity]
-
-> IncomeVault to distribute dividend on-chain, build with CMTAT
-
-- Role: Smart Contract Developer
-- Duration: 12/2023 &mdash; 08/2024
-- [Github project](https://github.com/CMTA/IncomeVault)
-- Publish a blog post on Taurus blog describing the architecture: <a href="https://www.taurushq.com/blog/equity-tokenization-how-to-pay-dividend-on-chain-using-cmtat/">Equity Tokenization - How to Pay Dividend On-Chain Using CMTAT</a>
-
-**Skills:** Solidity · Smart Contracts · defi · Foundry · Stablecoin
-
-## Hackathon
+## Hackathons
 
 #### Sui Identity Hub [BSA Sui hackathon / Move]
 
@@ -165,9 +171,11 @@ Smart contract
 
 **Skills:** Move · Sui · Derivatives · RWA
 
-## Rust
+## HEIG-VD
 
-### Password manager [HEIG-VD]
+Projects made during my studies at HEIG-VD.
+
+#### Password manager [Rust]
 
 [GitHub](https://github.com/rya-sge/password-manager)
 
@@ -181,25 +189,13 @@ When a user creates an account on the application, an `RSA` key pair is generate
 
 **Skills:** cryptography security
 
-### 2FA with YubiKey [HEIG-VD]
+#### 2FA with YubiKey [Rust]
 
 [GitHub](https://github.com/rya-sge/2FA-yubikey)
 
 Two-factor authentication (2FA) combining a password and a [YubiKey](https://www.yubico.com/), implemented with HMAC.
 
 **Skills:** cryptography security
-
-## Other
-
-#### Crypto Hack Alert
-
-> Public Telegram channel with a configured bot to track and follow crypto hacks and major black swan events (stablecoin depegs, large liquidations).
-
-- Duration: 07/2025 &mdash; Present
-
-**Skills:** Security monitoring · DeFi · Telegram bot
-
-## Academic projects [HEIG-VD]
 
 #### D-Flip-Flop e-commerce app [Java Spring Boot]
 
@@ -246,3 +242,13 @@ Two-factor authentication (2FA) combining a password and a [YubiKey](https://www
 - [GitHub](https://github.com/rya-sge/Spell-checker)
 
 **Skills:** C++ · Data structures
+
+## Personal
+
+#### Crypto Hack Alert
+
+> Public Telegram channel with a configured bot to track and follow crypto hacks and major black swan events (stablecoin depegs, large liquidations).
+
+- Duration: 07/2025 &mdash; Present
+
+**Skills:** Security monitoring · DeFi · Telegram bot
