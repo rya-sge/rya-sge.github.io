@@ -85,6 +85,8 @@ Smart contract
 
 **Skills:** Solidity · Smart Contracts · defi · Foundry · Stablecoin
 
+## Hackathon
+
 #### RuleSelf: Privacy Preserving Transfer Restrictions with Zero Knowledge Identity [ETHGlobal Cannes hackathon / Solidity]
 
 > Privacy-focused transfer restriction rule integrating Self Protocol's zero-knowledge identity verification with CMTAT security tokens.
