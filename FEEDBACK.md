@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 15 done, 4 partially done, 31 open.
+**Progress:** 15 done, 5 partially done, 30 open.
 
 ## 1. High priority — visible on every page
 
@@ -97,7 +97,9 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 ## 9. Technical / SEO
 
-- **9.a** ⬜ `_includes/footer/custom.html` loads **MathJax, Plotly (several MB) and Mermaid on every page**, although no page uses them. Removing them speeds up every page load, and removes the `polyfill` script, which is unnecessary for modern browsers (fewer third-party scripts is also a better look on a security engineer's site).
+- **9.a** 🟡 `_includes/footer/custom.html` loads **MathJax, Plotly (several MB) and Mermaid on every page**, although no page uses them. Removing them speeds up every page load, and removes the `polyfill` script, which is unnecessary for modern browsers (fewer third-party scripts is also a better look on a security engineer's site).
+  - Done: the polyfill script (`cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js`) removed; MathJax 3 does not need it. This is Cloudflare's mirror, not the compromised `polyfill.io` domain, so visitors were not exposed.
+  - Still open: MathJax, Plotly and Mermaid are still loaded on every page.
 - **9.b** ⬜ `publication_category` in `_config.yml` (Books / Journal Articles / Conference Papers) is unused.
 - **9.c** ⬜ The large academic-profile block in `_config.yml` (arxiv, pubmed, scopus…) is empty and can be trimmed for readability.
 - **9.d** ⬜ Check that `bluesky: "ad403"` is the right handle (other handles are `AccessDenied404` / `ADCDIII`).
