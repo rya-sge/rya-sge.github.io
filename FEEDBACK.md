@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 15 done, 5 partially done, 30 open.
+**Progress:** 26 done, 2 partially done, 22 open.
 
 ## 1. High priority — visible on every page
 
@@ -22,9 +22,12 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 ## 2. CV page (`_pages/cv.md`)
 
-- **2.a** ⬜ **Leftover template text:** "Service and leadership — Currently signed in to 43 different slack teams" (`cv.md:99-101`). Remove the section or replace it (e.g. Y-CTF co-founder, conference talks).
-- **2.b** ⬜ **Empty "Publications" section.** It loops over `site.publications`, but `_publications` is not declared as a collection in `_config.yml`, and the files in it are template placeholders ("Paper Title Number 1…"). The heading therefore renders with nothing under it. Either list the Taurus articles directly (as in `publications.md`) or remove the section.
-- **2.c** ⬜ **Empty "Teaching" section.** `site.teaching` does not exist; remove the section.
+- **2.a** ✅ **Leftover template text:** "Service and leadership — Currently signed in to 43 different slack teams" (`cv.md:99-101`). Remove the section or replace it (e.g. Y-CTF co-founder, conference talks).
+  - Done: "Service and leadership" section removed (Y-CTF is already listed under Education).
+- **2.b** ✅ **Empty "Publications" section.** It loops over `site.publications`, but `_publications` is not declared as a collection in `_config.yml`, and the files in it are template placeholders ("Paper Title Number 1…"). The heading therefore renders with nothing under it. Either list the Taurus articles directly (as in `publications.md`) or remove the section.
+  - Done: the `site.publications` loop replaced by a link to `/articles/`.
+- **2.c** ✅ **Empty "Teaching" section.** `site.teaching` does not exist; remove the section.
+  - Done: section removed.
 - **2.d** 🟡 **Skills section is thin and oddly structured:** "Solana" sits outside "Smart contract development", and there is nothing on security (audits, pentest, cryptography), tooling (Foundry, Hardhat, Slither, Aderyn) or other chains you present in talks (Tezos, Aztec, Zama FHE, Stellar/Soroban…). This is the section recruiters scan first.
   - Done: skills regrouped into smart contract development (Solidity with Foundry/Hardhat/Truffle, SmartPy, Move, Solana), tokenization and standards, cross-chain and integrations, privacy (Zama FHEVM, Self zero-knowledge identity), security (analysis, pentest, cryptography, Y-CTF) and other languages.
   - Still open: Slither, Aderyn, Aztec and Stellar/Soroban were not added as skills, because nothing in the repository shows hands-on work with them; add them if they apply.
@@ -75,16 +78,21 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 ## 7. Template leftovers still published
 
-- **7.a** 🟡 `_pages/markdown.md` → `/markdown/` (template's Markdown guide).
-- **7.b** 🟡 `_pages/archive-layout-with-content.md` → `/archive-layout-with-content/` (theme demo).
-- **7.c** 🟡 `_pages/non-menu-page.md` → `/non-menu-page/` ("This is a page not in the menu").
+- **7.a** ✅ `_pages/markdown.md` → `/markdown/` (template's Markdown guide).
+- **7.b** ✅ `_pages/archive-layout-with-content.md` → `/archive-layout-with-content/` (theme demo).
+- **7.c** ✅ `_pages/non-menu-page.md` → `/non-menu-page/` ("This is a page not in the menu").
   - Done for 7.a–7.c and the post in 7.d: `sitemap: false` in front matter, so they are excluded from `sitemap.xml` and from the HTML `/sitemap/` page, and `_includes/seo.html` adds `<meta name="robots" content="noindex">` for such pages.
-  - Still open: the pages remain reachable by URL; deleting them is the cleaner fix.
-- **7.d** ⬜ `_posts/2025-11-12-blog-post-1.md` → "Blog Post number 1" tagged "cool posts" (now hidden from sitemaps, see above). The "Blog Posts" nav item still leads to a year archive containing only this post. Replace the nav item with a direct link to `https://rya-sge.github.io/access-denied/`, and delete the post.
-- **7.e** ⬜ `_publications/` — five placeholder papers ("Paper Title Number 1…").
-- **7.f** ⬜ `_data/authors.yml` — "Name Name" / "Name2 Name2" placeholders.
-- **7.g** ⬜ `markdown_generator/` — template scripts with placeholder TSVs; not needed if you write talks by hand.
-- **7.h** ⬜ `files/paper1.pdf`, `files/slides1.pdf`, `files/bibtex1.bib` — template sample files, publicly downloadable. The two PDFs are now excluded from `sitemap.xml` via `_config.yml` defaults, but still published; delete them.
+  - Done: all three pages deleted.
+- **7.d** ✅ `_posts/2025-11-12-blog-post-1.md` → "Blog Post number 1" tagged "cool posts" (now hidden from sitemaps, see above). The "Blog Posts" nav item still leads to a year archive containing only this post. Replace the nav item with a direct link to `https://rya-sge.github.io/access-denied/`, and delete the post.
+  - Done: post deleted; "Blog Posts" in the header now links to `https://rya-sge.github.io/access-denied/`.
+- **7.e** ✅ `_publications/` — five placeholder papers ("Paper Title Number 1…").
+  - Done: folder deleted.
+- **7.f** ✅ `_data/authors.yml` — "Name Name" / "Name2 Name2" placeholders.
+  - Done: file deleted (the includes that read it already handle its absence).
+- **7.g** ✅ `markdown_generator/` — template scripts with placeholder TSVs; not needed if you write talks by hand.
+  - Done: folder deleted.
+- **7.h** ✅ `files/paper1.pdf`, `files/slides1.pdf`, `files/bibtex1.bib` — template sample files, publicly downloadable. The two PDFs are now excluded from `sitemap.xml` via `_config.yml` defaults, but still published; delete them.
+  - Done: the three files deleted, and their `sitemap: false` defaults removed from `_config.yml`.
 - **7.i** ⬜ `images/500x300.png`, `bio-photo.jpg`, `bio-photo-2.jpg`, `editing-talk.png` — template images.
 - **7.j** ⬜ `README.md` — still the Academic Pages template README; a short personal README would help visitors of the GitHub repo.
 
@@ -107,7 +115,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 ## 10. Suggested next quick wins
 
-1. Remove "43 slack teams" and the empty Teaching and Publications sections from the CV (2.a–2.c).
+1. ✅ Remove "43 slack teams" and the empty Teaching and Publications sections from the CV (2.a–2.c).
 2. Add `talk_type` to talks or fix the layout so venue/location appear (6.a).
-3. Delete the template pages, placeholder post, `_publications/` and sample files; point "Blog Posts" to Access Denied (7.a–7.h).
+3. ✅ Delete the template pages, placeholder post, `_publications/` and sample files; point "Blog Posts" to Access Denied (7.a–7.h).
 4. Rewrite or remove the Terms page; drop unused MathJax/Plotly/Mermaid scripts (8.a, 9.a).
