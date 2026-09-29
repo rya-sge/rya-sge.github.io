@@ -39,7 +39,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 - **3.c** ✅ **No mention of talks.**
   - Done: new "Talks" section with EthCC 2026 and Black Alps 2024 (talk page, video and slides links) and a link to `/talks/`.
 - **3.d** ✅ **Inconsistent LinkedIn handle:** `about.md` linked to `/in/ryan-sauge`, while the sidebar used `ryan-sge`.
-  - Done: both now use `rya-sge` (`https://www.linkedin.com/in/rya-sge`).
+  - Done: both now use `ryan-sge` (`https://www.linkedin.com/in/ryan-sge`); an earlier fix had wrongly switched them to `rya-sge`, which is not a LinkedIn profile.
 - **3.e** ⬜ **Tone:** "I hope you can find your happiness among this content" reads oddly; something like "Feel free to reach out on LinkedIn or X" is enough. The first line has a leading space (" Hi there 👋").
 - **3.f** ✅ **Twitter/X naming:** the page said "twitter account" and mixed `twitter.com` and `x.com` links.
   - Done: home page says "an X account" and links to `x.com/ADCDIII`; the sidebar link in `_includes/author-profile.html` now points to `x.com`.

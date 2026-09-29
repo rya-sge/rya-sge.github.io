@@ -15,7 +15,7 @@ My notes are available on my website [Access Denied](https://rya-sge.github.io/a
 
 I also have an X account to monitor attacks on the Blockchain ecosystem ([@ADCDIII](https://x.com/ADCDIII)).
 
-I hope you can find your happiness among this content. If you have any questions, it is possible to contact me on my [Linkedin](https://www.linkedin.com/in/rya-sge) or [X](https://x.com/ADCDIII).
+I hope you can find your happiness among this content. If you have any questions, it is possible to contact me on my [Linkedin](https://www.linkedin.com/in/ryan-sge) or [X](https://x.com/ADCDIII).
 
 Before jumping on the crypto wagon, I have participated in my free time in Capture The Flags (CTFs) and solved challenges on [TryHackMe](https://tryhackme.com/p/Carcajou) and [Root Me](https://www.root-me.org/AccessDenied404?lang=eng).
 
