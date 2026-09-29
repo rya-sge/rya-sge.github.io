@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 33 done, 3 partially done, 14 open.
+**Progress:** 34 done, 3 partially done, 13 open.
 
 ## 1. High priority — visible on every page
 
@@ -67,7 +67,8 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 - **5.a** ✅ **Heading levels are inconsistent:** "Smart contract" uses a level-1 `======` heading with `####` projects, while "Rust" uses `##` with `###` projects.
   - Done: the page now uses `##` for the five sections (CMTA, Taurus, Hackathons, HEIG-VD, Personal) and `###` for every project.
-- **5.b** ⬜ **CCIP Sender and IncomeVault have identical durations** (12/2023 — 05/2024); check that this is right.
+- **5.b** ✅ **CCIP Sender and IncomeVault have identical durations** (12/2023 — 05/2024); check that this is right.
+  - Done: confirmed, both run from 12/2023 to 05/2024 (IncomeVault had been changed to 08/2024 from LinkedIn and is set back to 05/2024).
 - **5.c** ⬜ **IncomeVault skills list "Stablecoin"** although it is about dividends/coupons; "Tokenization · Corporate actions" would fit better. "build with CMTAT" → "built with CMTAT"; "Publish a blog post" → "Published a blog post".
 - **5.d** 🟡 **Missing recent projects** you present in talks: CMTAT-Confidential (FHE / ERC-7984), CMTAT cross-chain, Aztec version, and the TERC-20 / TERC-721 / TERC-1155A repos listed in the CV.
   - Done: CMTAT Confidential, CMTAT LayerZero, TERC-20 and TERC-721 were added earlier; CMTAT CCIP (CMTAT bridged with Chainlink CCIP, `rya-sge/CMTAT-CCIP`) and TERC-1155A added now.

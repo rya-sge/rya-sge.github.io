@@ -86,7 +86,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 > IncomeVault to distribute dividend on-chain, build with CMTAT
 
 - Role: Smart Contract Developer
-- Duration: 12/2023 &mdash; 08/2024
+- Duration: 12/2023 &mdash; 05/2024
 - [Github project](https://github.com/CMTA/IncomeVault)
 - Publish a blog post on Taurus blog describing the architecture: <a href="https://www.taurushq.com/blog/equity-tokenization-how-to-pay-dividend-on-chain-using-cmtat/">Equity Tokenization - How to Pay Dividend On-Chain Using CMTAT</a>
 

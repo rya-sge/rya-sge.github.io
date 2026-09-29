@@ -35,7 +35,7 @@ Several publications on the Taurus blog on Tokenization and cross-chain bridge (
 
 Conference speaking on CMTAT and security: EthCC 2026, BSA - EPFL Stablecoins & Payments Conference 2026, CMTA x OpenZeppelin 2026 and Black Alps 2024 (see [Talks](/talks/))
 
-- Public Project
+- Public projects for CMTA (CMTAT ecosystem)
 
 [CMTAT](https://github.com/CMTA/CMTAT): ERC-20 for on-chain financial instruments
 
@@ -47,6 +47,12 @@ Conference speaking on CMTAT and security: EthCC 2026, BSA - EPFL Stablecoins & 
 
 [CMTAT-LayerZero](https://github.com/CMTA/CMTAT-LayerZero): Example of how CMTAT can be bridged with LayerZero
 
+[CMTAT-CCIP](https://github.com/rya-sge/CMTAT-CCIP): Example of how CMTAT can be bridged with Chainlink CCIP
+
+[IncomeVault](https://github.com/CMTA/IncomeVault): Solidity contracts to perform coupon payment on-chain
+
+- Public projects for Taurus
+
 [Smart Wallet 7702](https://github.com/taurushq-io/smart-wallet-7702): Smart wallet for EOAs with EIP-7702 delegation and ERC-4337 support
 
 [TERC-20](https://github.com/taurushq-io/TERC-20): Minimal ERC-20 with mint and burn (simple and batch version), deployment available in standalone or through a proxy (upgradeable)
@@ -56,10 +62,6 @@ Conference speaking on CMTAT and security: EthCC 2026, BSA - EPFL Stablecoins & 
 [TERC-1155A](https://github.com/taurushq-io/TERC1155A): ERC-1155 implementation for NFT
 
 [Chainlink CCIP Sender](https://github.com/taurushq-io/tg-bridge-contracts-CCIP): Sender contract to interact with CCIP bridge (Proof of concept)
-
-[IncomeVault](https://github.com/CMTA/IncomeVault): Solidity contracts to perform coupon payment on-chain
-
-
 
 ### Penetration Tester [10/2021 - 02/2022]
 
