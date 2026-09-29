@@ -45,12 +45,23 @@ Smart contract
 
 **Skills:** Solidity · FIX protocol · Merkle tree · Security token · RWA
 
+#### CMTAT Confidential [Taurus SA / CMTA / Zama / Solidity]
+
+> Confidential security token combining CMTAT compliance features with the Zama Confidential Blockchain Protocol for private balances.
+
+- Role: Smart Contract Developer
+- Duration: 02/2026 &mdash; 07/2026
+- [GitHub project](https://github.com/CMTA/CMTAT-Confidential)
+- Presented at CMTA x OpenZeppelin: [CMTAT-Confidential: From Public Amounts to Confidential Ones](/talks/2026-09-28-cmtat-confidential)
+
+**Skills:** Solidity · Zama FHEVM · Fully Homomorphic Encryption · Security token
+
 #### Smart Wallet 7702 [Taurus SA / Solidity]
 
 > Smart wallet contract to which an EOA delegates its execution logic with EIP-7702.
 
 - Role: Smart Contract Developer
-- Duration: 02/2026 &mdash; 03/2026
+- Duration: 01/2026 &mdash; 03/2026
 - [GitHub project](https://github.com/taurushq-io/smart-wallet-7702)
 - Inside the contract, `address(this)` is the EOA address, so multi-owner management is unnecessary: the EOA's private key is the sole authority.
 - Features:
@@ -62,6 +73,36 @@ Smart contract
   - ETH receiving (`receive`, `fallback`)
 
 **Skills:** Solidity · EIP-7702 · ERC-4337 · Account abstraction · Smart wallet
+
+#### CMTAT LayerZero [Taurus SA / CMTA / Solidity]
+
+> Example of how a CMTA Token can be bridged with LayerZero.
+
+- Role: Smart Contract Developer
+- Duration: 01/2026 &mdash; 02/2026
+- [GitHub project](https://github.com/CMTA/CMTAT-LayerZero)
+
+**Skills:** Solidity · LayerZero · Cross-chain bridge
+
+#### TERC-721 [Taurus SA / Solidity]
+
+> Minimal ERC-721 token with mint and burn, deployable with a proxy (upgradeable) or standalone.
+
+- Role: Smart Contract Developer
+- Duration: 01/2025 &mdash; 04/2025
+- [GitHub project](https://github.com/taurushq-io/TERC-721)
+
+**Skills:** Solidity · ERC-721 · Upgradeable proxy · Smart contract security
+
+#### TERC-20 [Taurus SA / Solidity]
+
+> Minimal ERC-20 token with mint and burn, deployable with a proxy (upgradeable) or standalone.
+
+- Role: Smart Contract Developer
+- Duration: 11/2024 &mdash; 03/2025
+- [GitHub project](https://github.com/taurushq-io/TERC-20)
+
+**Skills:** Solidity · ERC-20 · Upgradeable proxy · Smart contract security
 
 #### Chainlink CCIP Sender [Taurus SA / Solidity]
 
@@ -79,13 +120,23 @@ Smart contract
 > IncomeVault to distribute dividend on-chain, build with CMTAT
 
 - Role: Smart Contract Developer
-- Duration: 12/2023 &mdash; 05/2024
+- Duration: 12/2023 &mdash; 08/2024
 - [Github project](https://github.com/CMTA/IncomeVault)
 - Publish a blog post on Taurus blog describing the architecture: <a href="https://www.taurushq.com/blog/equity-tokenization-how-to-pay-dividend-on-chain-using-cmtat/">Equity Tokenization - How to Pay Dividend On-Chain Using CMTAT</a>
 
 **Skills:** Solidity · Smart Contracts · defi · Foundry · Stablecoin
 
 ## Hackathon
+
+#### Sui Identity Hub [BSA Sui hackathon / Move]
+
+> Decentralized identity (W3C) for Sui in Move, with document storage on Walrus through Tusky and wallet management with Dynamic.
+
+- Role: Hackathon project, developed in a team of three during the BSA Sui hackathon
+- Duration: 09/2025
+- [GitHub project](https://github.com/rya-sge/sui-identity-hub)
+
+**Skills:** Move · Sui · Walrus · Decentralized identity
 
 #### RuleSelf: Privacy Preserving Transfer Restrictions with Zero Knowledge Identity [ETHGlobal Cannes hackathon / Solidity]
 
@@ -99,6 +150,20 @@ Smart contract
 - Designed to work with CMTAT and RuleEngine, so compliance checks apply directly to token transfers without exposing sensitive identity information on-chain.
 
 **Skills:** Solidity · Zero-knowledge proofs · Self Protocol · Identity · Security token
+
+#### OTC derivative product on the Sui blockchain [BSA Sui hackathon / Move]
+
+> Prototype to trade derivative products such as options over the counter (OTC).
+
+- Role: Hackathon project, developed in a team during the BSA Sui hackathon
+- Duration: 10/2024
+- [GitHub project](https://github.com/rya-sge/flow_smart-derivatives)
+- The result is a smart contract written in Move and a front-end application to interact with it on the Sui testnet.
+- Implements American options on an asset represented by a coin (RWA):
+  - Call: the right, but not the obligation, to buy the asset at a set price on or before a set date
+  - Put: the right, but not the obligation, to sell the asset at a set price (the strike price) by a set date
+
+**Skills:** Move · Sui · Derivatives · RWA
 
 ## Rust
 
@@ -115,3 +180,69 @@ When a user creates an account on the application, an `RSA` key pair is generate
 - To share a password with another user, the sender uses the recipient’s public key for encryption.
 
 **Skills:** cryptography security
+
+### 2FA with YubiKey [HEIG-VD]
+
+[GitHub](https://github.com/rya-sge/2FA-yubikey)
+
+Two-factor authentication (2FA) combining a password and a [YubiKey](https://www.yubico.com/), implemented with HMAC.
+
+**Skills:** cryptography security
+
+## Other
+
+#### Crypto Hack Alert
+
+> Public Telegram channel with a configured bot to track and follow crypto hacks and major black swan events (stablecoin depegs, large liquidations).
+
+- Duration: 07/2025 &mdash; Present
+
+**Skills:** Security monitoring · DeFi · Telegram bot
+
+## Academic projects [HEIG-VD]
+
+#### D-Flip-Flop e-commerce app [Java Spring Boot]
+
+> E-commerce web application built with the Java Spring Boot framework.
+
+- Duration: 09/2021 &mdash; 01/2022
+- Team of 5; I was mainly in charge of the authentication part, built as a micro-service.
+
+**Skills:** Java · Spring Boot · Micro-services · Authentication
+
+#### Barcodes, iBeacons, NFC [Android / Kotlin]
+
+- Duration: 11/2021 &mdash; 12/2021
+- [GitHub](https://github.com/rya-sge/SYM-Labo-3-Environnement)
+- Application whose access is secured by the combination of a login/password and an NFC tag.
+- Reading of one- or two-dimensional barcodes (e.g. QR codes) and display of their value.
+- Listing of the iBeacons nearby.
+
+**Skills:** Android · Kotlin · NFC
+
+#### Static site generator [Java]
+
+> Static site generator like Jekyll or Hugo, developed as part of the Software Engineering course.
+
+- Duration: 03/2021 &mdash; 06/2021
+- [GitHub](https://github.com/rya-sge/generateur-site-statique-pellissier_ruckstuhl_sauge_viotti)
+
+**Skills:** Java · Software engineering
+
+#### SwissCulture web application [Angular / PHP]
+
+> Web application enabling cultural institutions to highlight their content and exhibitions digitally, by publishing images and illustrations with a description in the form of "virtual visits".
+
+- Duration: 02/2021 &mdash; 06/2021
+- [GitHub](https://github.com/rya-sge/PRO-Angular-Php)
+
+**Skills:** Angular · PHP · Teamwork
+
+#### Spell checker [C++]
+
+> English spell checker built on two duplicate-free hash table structures (linear probing and collision resolution by chaining).
+
+- Duration: 11/2020 &mdash; 01/2021
+- [GitHub](https://github.com/rya-sge/Spell-checker)
+
+**Skills:** C++ · Data structures
