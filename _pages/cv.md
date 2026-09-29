@@ -63,11 +63,11 @@ Conference speaking on CMTAT and security: EthCC 2026, BSA - EPFL Stablecoins & 
 
 [Chainlink CCIP Sender](https://github.com/taurushq-io/tg-bridge-contracts-CCIP): Sender contract to interact with CCIP bridge (Proof of concept)
 
-### Penetration Tester [10/2021 - 02/2022]
+### Penetration Tester, HEIG-VD study project [10/2021 - 02/2022]
 
-- Company: Confidential
-- Position: Penetration Tester (external consultant / internship)
-- Summary: Security audit in a software company carried out as part of a course at HEIG-VD, about 200 hours performed
+- Company: Confidential (software company)
+- Position: Penetration Tester (external consultant), as part of my Bachelor studies in Information Security at [HEIG-VD](https://heig-vd.ch)
+- Summary: Security audit of a software company carried out for a HEIG-VD course, about 200 hours performed
 
 Education
 ======
