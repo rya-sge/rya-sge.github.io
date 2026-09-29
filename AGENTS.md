@@ -25,7 +25,7 @@ Personal portfolio website of Ryan S. (AccessDenied404 — security engineer / b
 - **Collections:** only `talks` is declared in `_config.yml` (`output: true`, layout `talk`). `_publications/` still contains the template's placeholder papers and is not declared as a collection; `_pages/publications.md` is written by hand instead.
 - **Header menu:** order and entries come from `_data/navigation.yml` (Publications, Talks, Portfolio, Blog Posts, CV).
 - **Front-matter defaults:** set per type (posts / pages / talks) in `_config.yml` `defaults`; new pages normally only need `title`, `permalink`, `layout: archive` or default `single`.
-- **Files:** anything in `files/` is published at `/files/<name>` (e.g. slide PDFs linked from talks). The PDFs currently at repo root are untracked.
+- **Files:** anything in `files/` is published at `/files/<name>`. Talk slides go in `files/slides/` with lowercase, space-free names and are linked from the talk page as `Slides: [PDF](/files/slides/<name>.pdf)`.
 - **GitHub Pages safe mode:** only whitelisted plugins work (`jekyll-feed`, `jekyll-gist`, `jekyll-paginate`, `jekyll-sitemap`, `jekyll-redirect-from`, `jemoji`). Do not add other plugins.
 - **`_config.yml` is not hot-reloaded** by `jekyll serve`; restart after editing it.
 - **JS bundle:** `assets/js/main.min.js` is generated from `assets/js/_main.js` + plugins via `npm run build:js`; edit the source, then rebuild.
@@ -46,7 +46,10 @@ _pages/
   talks.html             # talks index, iterates site.talks
   year-archive.html, category-archive.html, tag-archive.html, sitemap.md, 404.md, terms.md, …
 _talks/
-  2024-11-07-crypto-wallet.md   # Black Alps 2024 talk
+  2024-11-07-crypto-wallet.md          # Black Alps 2024
+  2026-03-20-bsa-cmtat-cross-chain.md  # BSA EPFL Stablecoins & Payments Conference
+  2026-03-31-ethcc-cmtat.md            # EthCC 2026
+  2026-09-28-cmtat-confidential.md     # CMTA x OpenZeppelin
 _posts/                  # 2025-11-12-blog-post-1.md (template placeholder)
 _publications/           # template placeholder papers (not a declared collection)
 _drafts/                 # post-draft.md
@@ -55,6 +58,7 @@ _includes/               # author-profile, masthead, head/custom.html, footer/cu
 _sass/                   # include/, layout/, theme/ (default|air, light|dark), vendor/
 assets/                  # css/main.scss, js/_main.js, js/main.min.js, fonts
 files/                   # downloadable files served at /files/
+  slides/                # talk slide decks (PDF)
 images/                  # profile.png, favicons, manifest.json, themes/
 markdown_generator/      # template scripts/notebooks generating talks/publications from TSV
 ```
@@ -78,6 +82,6 @@ npm install && npm run build:js              # rebuild assets/js/main.min.js
 
 ## Conventions
 
-- Talks: `_talks/YYYY-MM-DD-slug.md` with front matter `title`, `collection: talks`, `type`, `permalink: /talks/YYYY-MM-DD-slug`, `venue`, `date`, `location`.
+- Talks: `_talks/YYYY-MM-DD-slug.md` with front matter `title`, `collection: talks`, `type`, `permalink: /talks/YYYY-MM-DD-slug`, `venue`, `date`, `location` (optional); end the body with the YouTube link and `Slides:` link when available.
 - Keep links to the external blog as absolute URLs under `https://rya-sge.github.io/access-denied/`.
 - GitHub Pages builds the site from the pushed branch (`master` is the main branch); preview locally before pushing.

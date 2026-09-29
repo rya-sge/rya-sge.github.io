@@ -16,6 +16,8 @@ Talk at the swiss security conference [Black Alps 2024](https://www.blackalps.ch
 
 See on [YouTube](https://www.youtube.com/watch?v=wJryrYR_NJY)
 
+Slides: [PDF](/files/slides/2024-blackalps-crypto-wallet.pdf)
+
 **Related blog post**
 
 Crypto Wallets:
