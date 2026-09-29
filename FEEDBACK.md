@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 29 done, 3 partially done, 18 open.
+**Progress:** 32 done, 3 partially done, 15 open.
 
 ## 1. High priority — visible on every page
 
@@ -41,12 +41,14 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 - **3.a** ✅ **"Main article" section had an orphan sentence:** "Here my main articles on Blockchain:" was followed by nothing.
   - Done: sentence and extra blank lines removed; heading renamed "Main articles".
-- **3.b** ⬜ **Duplicated content:** the article lists are copied from `publications.md` but are already out of date (the 2025 Taurus articles on conditional transfers and ERC-1400 are missing). Keep one source of truth: a short "highlights" list on the home page and link to `/publications/`.
+- **3.b** ✅ **Duplicated content:** the article lists are copied from `publications.md` but are already out of date (the 2025 Taurus articles on conditional transfers and ERC-1400 are missing). Keep one source of truth: a short "highlights" list on the home page and link to `/publications/`.
+  - Done: the copied lists replaced by a short "Selected articles" list (the two 2025 Taurus articles, the CCIP/USDC article and MetaMask Secrets) with a link to `/publications/`, which stays the single full list.
 - **3.c** ✅ **No mention of talks.**
   - Done: new "Talks" section with EthCC 2026 and Black Alps 2024 (talk page, video and slides links) and a link to `/talks/`.
 - **3.d** ✅ **Inconsistent LinkedIn handle:** `about.md` linked to `/in/ryan-sauge`, while the sidebar used `ryan-sge`.
   - Done: both now use `ryan-sge` (`https://www.linkedin.com/in/ryan-sge`); an earlier fix had wrongly switched them to `rya-sge`, which is not a LinkedIn profile.
-- **3.e** ⬜ **Tone:** "I hope you can find your happiness among this content" reads oddly; something like "Feel free to reach out on LinkedIn or X" is enough. The first line has a leading space (" Hi there 👋").
+- **3.e** ✅ **Tone:** "I hope you can find your happiness among this content" reads oddly; something like "Feel free to reach out on LinkedIn or X" is enough. The first line has a leading space (" Hi there 👋").
+  - Done: contact sentence now reads "Feel free to reach out on LinkedIn or X."; leading space removed.
 - **3.f** ✅ **Twitter/X naming:** the page said "twitter account" and mixed `twitter.com` and `x.com` links.
   - Done: home page says "an X account" and links to `x.com/ADCDIII`; the sidebar link in `_includes/author-profile.html` now points to `x.com`.
 - **3.g** ✅ **Tab title** showed "Blockchain - Smart Contract - Security - Your Name / Site Title".
@@ -62,7 +64,8 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 ## 5. Portfolio page (`_pages/portfolio.md`)
 
-- **5.a** ⬜ **Heading levels are inconsistent:** "Smart contract" uses a level-1 `======` heading with `####` projects, while "Rust" uses `##` with `###` projects.
+- **5.a** ✅ **Heading levels are inconsistent:** "Smart contract" uses a level-1 `======` heading with `####` projects, while "Rust" uses `##` with `###` projects.
+  - Done: the page now uses `##` for the five sections (CMTA, Taurus, Hackathons, HEIG-VD, Personal) and `###` for every project.
 - **5.b** ⬜ **CCIP Sender and IncomeVault have identical durations** (12/2023 — 05/2024); check that this is right.
 - **5.c** ⬜ **IncomeVault skills list "Stablecoin"** although it is about dividends/coupons; "Tokenization · Corporate actions" would fit better. "build with CMTAT" → "built with CMTAT"; "Publish a blog post" → "Published a blog post".
 - **5.d** 🟡 **Missing recent projects** you present in talks: CMTAT-Confidential (FHE / ERC-7984), CMTAT cross-chain, Aztec version, and the TERC-20 / TERC-721 / TERC-1155A repos listed in the CV.

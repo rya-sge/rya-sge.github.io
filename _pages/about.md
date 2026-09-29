@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
- Hi there 👋
+Hi there 👋
 
 I am a computer security engineer, with a focus on blockchain and smart contract development.
 
@@ -15,7 +15,7 @@ My notes are available on my website [Access Denied](https://rya-sge.github.io/a
 
 I also have an X account to monitor attacks on the Blockchain ecosystem ([@ADCDIII](https://x.com/ADCDIII)).
 
-I hope you can find your happiness among this content. If you have any questions, it is possible to contact me on my [Linkedin](https://www.linkedin.com/in/ryan-sge) or [X](https://x.com/ADCDIII).
+Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/ryan-sge) or [X](https://x.com/ADCDIII).
 
 Before jumping on the crypto wagon, I have participated in my free time in Capture The Flags (CTFs) and solved challenges on [TryHackMe](https://tryhackme.com/p/Carcajou) and [Root Me](https://www.root-me.org/AccessDenied404?lang=eng).
 
@@ -27,26 +27,11 @@ Before jumping on the crypto wagon, I have participated in my free time in Captu
 
 See all [talks and presentations](/talks/).
 
-### Main articles
+### Selected articles
 
-As part of my work for Taurus:
+- [Conditional Transfers with CMTAT & Taurus-CAPITAL: A Step-by-Step Guide](https://www.taurushq.com/blog/tokenization-conditionaltransfer-with-cmtat/) — Taurus blog, 2025
+- [ERC-1400 for Tokenized Securities: Analysis and Deployment with Taurus-CAPITAL](https://www.taurushq.com/blog/erc-1400-for-tokenized-securities-analysis-and-deployment-with-taurus-capital/) — Taurus blog, 2025
+- [How to Bridge USDC Across EVM Chains Using Chainlink's CCIP Protocol](https://www.taurushq.com/blog/how-to-bridge-usdc-across-evm-chains-using-chainlinks-ccip-protocol) — Taurus blog, 2024
+- [Deep dive into MetaMask Secrets](https://rya-sge.github.io/access-denied/2023/07/20/metamask-secret/) — Access Denied
 
-Cross-chain bridge
-- [Blockchain Interoperability Explained: Bridges, Cross-Chain Protocols, and CCIP](https://www.taurushq.com/blog/blockchain-interoperability-explained-bridges-cross-chain-protocols-and-ccip/)
-- [How to Bridge USDC Across EVM Chains Using Chainlink's CCIP Protocol](https://www.taurushq.com/blog/how-to-bridge-usdc-across-evm-chains-using-chainlinks-ccip-protocol)
-
-Tokenization
-- [Equity Tokenization: How to Pay Dividend On-Chain Using CMTAT](https://www.taurushq.com/blog/equity-tokenization-how-to-pay-dividend-on-chain-using-cmtat/)
-- [Token Transfer Management: How to Apply Restrictions with CMTAT and ERC-1404](https://www.taurushq.com/blog/token-transfer-management-how-to-apply-restrictions-with-cmtat-and-erc-1404/)
-- [Making CMTAT Tokenization More Scalable and Cost-Effective with Proxy and Factory Contracts](https://www.taurushq.com/blog/cmtat-tokenization-deployment-with-proxy-and-factory/)
-- [Tokenization on Ethereum and EVM Blockchains: Which Smart Contract Should You Use?](https://www.taurushq.com/blog/tokenization-on-ethereum-and-evm-blockchains-which-smart-contract-should-you-use/)
-
-
-
-My main personal articles:
-
-- [RareSkills Solidity Interview Answers - Advanced](https://rya-sge.github.io/access-denied/2024/05/06/solidity-interview-question-rareskills-advanced/)
-- [How to build a blockchain oracle](https://rya-sge.github.io/access-denied/2024/04/16/build-blockchain-oracle/)
-- [Deep dive into MetaMask Secrets](https://rya-sge.github.io/access-denied/2023/07/20/metamask-secret/)
-- [Ethereum Staking - How It Works](https://rya-sge.github.io/access-denied/2024/03/28/ethereum-staking/)
-- [Trezor Crypto Wallet – Cryptography and Security](https://rya-sge.github.io/access-denied/2024/10/15/trezor-wallet-security/)
+See all [publications](/publications/).

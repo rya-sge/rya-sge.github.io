@@ -13,7 +13,7 @@ author_profile: true
 
 Open-source projects of the CMTAT ecosystem, developed as part of my work at Taurus SA for the Capital Markets and Technology Association (CMTA).
 
-#### CMTAT [Taurus SA / CMTA / Solidity]
+### CMTAT [Taurus SA / CMTA / Solidity]
 
 > Security token framework to tokenize financial instruments on Ethereum and EVM compatible blockchain.
 
@@ -24,7 +24,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · EVM · Ethereum
 
-#### CMTAT ACE [Taurus SA / CMTA / Solidity]
+### CMTAT ACE [Taurus SA / CMTA / Solidity]
 
 > Integration of the CMTAT security token with Chainlink ACE (Automated Compliance Engine) for programmable, on-chain compliance through policy-driven controls.
 
@@ -37,7 +37,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · Chainlink ACE · Compliance · Security token · RWA
 
-#### CMTAT FIX [Taurus SA / CMTA / Solidity]
+### CMTAT FIX [Taurus SA / CMTA / Solidity]
 
 > On-chain representation of FIX (Financial Information eXchange) data for CMTAT, using deterministic encoding and a Merkle root commitment instead of storing raw messages.
 
@@ -49,7 +49,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · FIX protocol · Merkle tree · Security token · RWA
 
-#### CMTAT Confidential [Taurus SA / CMTA / Zama / Solidity]
+### CMTAT Confidential [Taurus SA / CMTA / Zama / Solidity]
 
 > Confidential security token combining CMTAT compliance features with the Zama Confidential Blockchain Protocol for private balances.
 
@@ -60,7 +60,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · Zama FHEVM · Fully Homomorphic Encryption · Security token
 
-#### CMTAT LayerZero [Taurus SA / CMTA / Solidity]
+### CMTAT LayerZero [Taurus SA / CMTA / Solidity]
 
 > Example of how a CMTA Token can be bridged with LayerZero.
 
@@ -70,7 +70,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · LayerZero · Cross-chain bridge
 
-#### CMTAT CCIP [Taurus SA / CMTA / Solidity]
+### CMTAT CCIP [Taurus SA / CMTA / Solidity]
 
 > Example of how a CMTA Token can be bridged with Chainlink CCIP, using the Cross-Chain Token (CCT) standard that CMTAT already implements.
 
@@ -81,7 +81,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · Foundry · Chainlink CCIP · Cross-chain bridge
 
-#### IncomeVault [Taurus SA / CMTA / Solidity]
+### IncomeVault [Taurus SA / CMTA / Solidity]
 
 > IncomeVault to distribute dividend on-chain, build with CMTAT
 
@@ -94,7 +94,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 ## Taurus
 
-#### Smart Wallet 7702 [Taurus SA / Solidity]
+### Smart Wallet 7702 [Taurus SA / Solidity]
 
 > Smart wallet contract to which an EOA delegates its execution logic with EIP-7702.
 
@@ -112,7 +112,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · EIP-7702 · ERC-4337 · Account abstraction · Smart wallet
 
-#### TERC-721 [Taurus SA / Solidity]
+### TERC-721 [Taurus SA / Solidity]
 
 > Minimal ERC-721 token with mint and burn, deployable with a proxy (upgradeable) or standalone.
 
@@ -122,7 +122,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · ERC-721 · Upgradeable proxy · Smart contract security
 
-#### TERC-20 [Taurus SA / Solidity]
+### TERC-20 [Taurus SA / Solidity]
 
 > Minimal ERC-20 token with mint and burn, deployable with a proxy (upgradeable) or standalone.
 
@@ -132,7 +132,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · ERC-20 · Upgradeable proxy · Smart contract security
 
-#### TERC-1155A [Taurus SA / Solidity]
+### TERC-1155A [Taurus SA / Solidity]
 
 > ERC-1155 implementation supporting fungible, non-fungible and semi-fungible tokens in a single contract.
 
@@ -144,7 +144,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · ERC-1155 · Upgradeable proxy · Smart contract security
 
-#### Chainlink CCIP Sender [Taurus SA / Solidity]
+### Chainlink CCIP Sender [Taurus SA / Solidity]
 
 > Study of the CCIP cross-chain bridge by Chainlink with the transfer of USDC between different blockchains as proof-of-concept
 
@@ -157,7 +157,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 ## Hackathons
 
-#### Sui Identity Hub [BSA Sui hackathon / Move]
+### Sui Identity Hub [BSA Sui hackathon / Move]
 
 > Decentralized identity (W3C) for Sui in Move, with document storage on Walrus through Tusky and wallet management with Dynamic.
 
@@ -167,7 +167,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Move · Sui · Walrus · Decentralized identity
 
-#### RuleSelf: Privacy Preserving Transfer Restrictions with Zero Knowledge Identity [ETHGlobal Cannes hackathon / Solidity]
+### RuleSelf: Privacy Preserving Transfer Restrictions with Zero Knowledge Identity [ETHGlobal Cannes hackathon / Solidity]
 
 > Privacy-focused transfer restriction rule integrating Self Protocol's zero-knowledge identity verification with CMTAT security tokens.
 
@@ -180,7 +180,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · Zero-knowledge proofs · Self Protocol · Identity · Security token
 
-#### OTC derivative product on the Sui blockchain [BSA Sui hackathon / Move]
+### OTC derivative product on the Sui blockchain [BSA Sui hackathon / Move]
 
 > Prototype to trade derivative products such as options over the counter (OTC).
 
@@ -198,7 +198,7 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 Projects made during my studies at HEIG-VD.
 
-#### Password manager [Rust]
+### Password manager [Rust]
 
 [GitHub](https://github.com/rya-sge/password-manager)
 
@@ -212,7 +212,7 @@ When a user creates an account on the application, an `RSA` key pair is generate
 
 **Skills:** Rust · Cryptography · Security
 
-#### 2FA with YubiKey [Rust]
+### 2FA with YubiKey [Rust]
 
 [GitHub](https://github.com/rya-sge/2FA-yubikey)
 
@@ -220,7 +220,7 @@ Two-factor authentication (2FA) combining a password and a [YubiKey](https://www
 
 **Skills:** Rust · Cryptography · Security
 
-#### D-Flip-Flop e-commerce app [Java Spring Boot]
+### D-Flip-Flop e-commerce app [Java Spring Boot]
 
 > E-commerce web application built with the Java Spring Boot framework.
 
@@ -229,7 +229,7 @@ Two-factor authentication (2FA) combining a password and a [YubiKey](https://www
 
 **Skills:** Java · Spring Boot · Micro-services · Authentication
 
-#### Barcodes, iBeacons, NFC [Android / Kotlin]
+### Barcodes, iBeacons, NFC [Android / Kotlin]
 
 - Duration: 11/2021 &mdash; 12/2021
 - [GitHub](https://github.com/rya-sge/SYM-Labo-3-Environnement)
@@ -239,7 +239,7 @@ Two-factor authentication (2FA) combining a password and a [YubiKey](https://www
 
 **Skills:** Android · Kotlin · NFC
 
-#### Static site generator [Java]
+### Static site generator [Java]
 
 > Static site generator like Jekyll or Hugo, developed as part of the Software Engineering course.
 
@@ -248,7 +248,7 @@ Two-factor authentication (2FA) combining a password and a [YubiKey](https://www
 
 **Skills:** Java · Software engineering
 
-#### SwissCulture web application [Angular / PHP]
+### SwissCulture web application [Angular / PHP]
 
 > Web application enabling cultural institutions to highlight their content and exhibitions digitally, by publishing images and illustrations with a description in the form of "virtual visits".
 
@@ -257,7 +257,7 @@ Two-factor authentication (2FA) combining a password and a [YubiKey](https://www
 
 **Skills:** Angular · PHP · Teamwork
 
-#### Spell checker [C++]
+### Spell checker [C++]
 
 > English spell checker built on two duplicate-free hash table structures (linear probing and collision resolution by chaining).
 
@@ -268,7 +268,7 @@ Two-factor authentication (2FA) combining a password and a [YubiKey](https://www
 
 ## Personal
 
-#### Crypto Hack Alert
+### Crypto Hack Alert
 
 > Public Telegram channel with a configured bot to track and follow crypto hacks and major black swan events (stablecoin depegs, large liquidations).
 
