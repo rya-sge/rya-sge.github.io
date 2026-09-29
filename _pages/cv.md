@@ -42,13 +42,31 @@ Analysis of smart contracts written in Solidity and SmartPy (Tezos)
 
 Consultant for clients on issues related to Blockchain and smart contracts
 
-R&D in cross-chain bridges and new innovations in the field of blockchain (e.g. account abstraction)
+R&D in cross-chain bridges and new innovations in the field of blockchain (e.g. account abstraction with EIP-7702 and ERC-4337)
+
+Development of the CMTAT security token framework and its security process: audits for major releases, static analysis and AI audit tools for minor releases
+
+Integrations of CMTAT with partners: Chainlink ACE (on-chain compliance), Chainlink CCIP and LayerZero (cross-chain), and FIX messages on-chain with Nethermind
+
+Privacy for security tokens: CMTAT-Confidential with Zama FHE (confidential balances), alongside the Aztec version of CMTAT
 
 Several publications on the Taurus blog on Tokenization and cross-chain bridge ([Chainlink CCIP](https://chain.link/cross-chain))
+
+Conference speaking on CMTAT and security: EthCC 2026, BSA - EPFL Stablecoins & Payments Conference 2026, CMTA x OpenZeppelin 2026 and Black Alps 2024 (see [Talks](/talks/))
 
 - Public Project
 
 [CMTAT](https://github.com/CMTA/CMTAT): ERC-20 for on-chain financial instruments
+
+[CMTAT-Confidential](https://github.com/CMTA/CMTAT-Confidential): Confidential version of CMTAT with private balances, built with Zama FHEVM
+
+[CMTAT-ACE](https://github.com/CMTA/CMTAT-ACE): Integration of CMTAT with Chainlink ACE for policy-driven on-chain compliance
+
+[CMTAT-FIX](https://github.com/CMTA/CMTAT-FIX): Integration of on-chain FIX (Financial Information eXchange) data in CMTAT, with Nethermind
+
+[CMTAT-LayerZero](https://github.com/CMTA/CMTAT-LayerZero): Example of how CMTAT can be bridged with LayerZero
+
+[Smart Wallet 7702](https://github.com/taurushq-io/smart-wallet-7702): Smart wallet for EOAs with EIP-7702 delegation and ERC-4337 support
 
 [TERC-20](https://github.com/taurushq-io/TERC-20): Minimal ERC-20 with mint and burn (simple and batch version), deployment available in standalone or through a proxy (upgradeable)
 
@@ -71,10 +89,25 @@ Several publications on the Taurus blog on Tokenization and cross-chain bridge (
 Skills
 ======
 * Smart contract development
-  * Solidity
-  * SUI move
-
-* Solana
+  * Solidity (EVM): Foundry, Hardhat, Truffle
+  * SmartPy (Tezos)
+  * Move (Sui)
+  * Solana
+* Tokenization and standards
+  * Security tokens (CMTAT), ERC-20, ERC-721, ERC-1155
+  * Account abstraction: ERC-4337, EIP-7702
+* Cross-chain and integrations
+  * Chainlink CCIP, Chainlink ACE, LayerZero
+* Privacy
+  * Fully Homomorphic Encryption (Zama FHEVM)
+  * Zero-knowledge identity (Self Protocol)
+* Security
+  * Smart contract security analysis
+  * Penetration testing
+  * Applied cryptography
+  * CTF (co-founder of Y-CTF)
+* Other languages
+  * Rust, Java, C++, Kotlin
 
 Publications
 ======

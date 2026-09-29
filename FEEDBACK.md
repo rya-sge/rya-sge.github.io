@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 11 done, 3 partially done, 36 open.
+**Progress:** 12 done, 4 partially done, 34 open.
 
 ## 1. High priority — visible on every page
 
@@ -25,8 +25,11 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 - **2.a** ⬜ **Leftover template text:** "Service and leadership — Currently signed in to 43 different slack teams" (`cv.md:99-101`). Remove the section or replace it (e.g. Y-CTF co-founder, conference talks).
 - **2.b** ⬜ **Empty "Publications" section.** It loops over `site.publications`, but `_publications` is not declared as a collection in `_config.yml`, and the files in it are template placeholders ("Paper Title Number 1…"). The heading therefore renders with nothing under it. Either list the Taurus articles directly (as in `publications.md`) or remove the section.
 - **2.c** ⬜ **Empty "Teaching" section.** `site.teaching` does not exist; remove the section.
-- **2.d** ⬜ **Skills section is thin and oddly structured:** "Solana" sits outside "Smart contract development", and there is nothing on security (audits, pentest, cryptography), tooling (Foundry, Hardhat, Slither, Aderyn) or other chains you present in talks (Tezos, Aztec, Zama FHE, Stellar/Soroban…). This is the section recruiters scan first.
-- **2.e** ⬜ **Work experience summary is outdated relative to your talks.** The Taurus entry does not mention privacy work (CMTAT-Confidential with FHE, Aztec), the CMTAT audit process, or conference speaking (EthCC, BSA EPFL, Black Alps, CMTA x OpenZeppelin).
+- **2.d** 🟡 **Skills section is thin and oddly structured:** "Solana" sits outside "Smart contract development", and there is nothing on security (audits, pentest, cryptography), tooling (Foundry, Hardhat, Slither, Aderyn) or other chains you present in talks (Tezos, Aztec, Zama FHE, Stellar/Soroban…). This is the section recruiters scan first.
+  - Done: skills regrouped into smart contract development (Solidity with Foundry/Hardhat/Truffle, SmartPy, Move, Solana), tokenization and standards, cross-chain and integrations, privacy (Zama FHEVM, Self zero-knowledge identity), security (analysis, pentest, cryptography, Y-CTF) and other languages.
+  - Still open: Slither, Aderyn, Aztec and Stellar/Soroban were not added as skills, because nothing in the repository shows hands-on work with them; add them if they apply.
+- **2.e** ✅ **Work experience summary is outdated relative to your talks.** The Taurus entry does not mention privacy work (CMTAT-Confidential with FHE, Aztec), the CMTAT audit process, or conference speaking (EthCC, BSA EPFL, Black Alps, CMTA x OpenZeppelin).
+  - Done: the Taurus summary now covers the CMTAT security process (audits, static analysis, AI audit tools), partner integrations (Chainlink ACE and CCIP, LayerZero, FIX with Nethermind), privacy (CMTAT-Confidential with Zama FHE, the Aztec version) and conference speaking with a link to `/talks/`; CMTAT-Confidential, CMTAT-ACE, CMTAT-FIX, CMTAT-LayerZero and Smart Wallet 7702 were added to the public projects.
 - **2.f** ✅ **Typos / consistency:** "Analyze of smart contracts", lowercase "position:" / "company:", "Duration:" lines duplicating the dates in the headings, "A rust-based application to store password securely".
   - Done: "Analysis of smart contracts", "SmartPy (Tezos)", "Company:" / "Position:" capitalised, duplicate "Duration:" lines removed (Taurus heading now reads "12/2022 - present"), "Rust-based application to store passwords securely".
 - **2.g** ⬜ **Consider a downloadable PDF CV** in `files/` linked at the top of the page.
