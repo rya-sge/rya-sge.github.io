@@ -27,11 +27,7 @@ Before jumping on the crypto wagon, I have participated in my free time in Captu
 
 See all [talks and presentations](/talks/).
 
-### Main article
-
-Here my main articles on Blockchain:
-
-
+### Main articles
 
 As part of my work for Taurus:
 

@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 7 done, 3 partially done, 40 open.
+**Progress:** 11 done, 3 partially done, 36 open.
 
 ## 1. High priority — visible on every page
 
@@ -12,11 +12,13 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
   - Done: set to `"Ryan S."`.
 - **1.b** ✅ **Site name and description are placeholders.** `_config.yml:14-15` had `name: "Your Name"` and `description: "Your Name's academic portfolio"`, used in the footer, the meta description and social previews.
   - Done: `name: "Ryan S."`; `description: "Security engineer and blockchain developer: CMTAT, tokenization, cross-chain and smart contract security"` (also reused as `og_description`).
-- **1.c** ⬜ **Repository URL is wrong.** `_config.yml:19` is `https://github.com/rya-sge.github.io`, which is not a valid repo URL; it should be `https://github.com/rya-sge/rya-sge.github.io`.
+- **1.c** ✅ **Repository URL is wrong.** `_config.yml:19` was `https://github.com/rya-sge.github.io`, which is not a valid repo.
+  - Done: set to `rya-sge/rya-sge.github.io` (the `owner/name` form expected by the GitHub Pages metadata plugin, matching the git remote).
 - **1.d** ✅ **No social preview image.** `og_image` and `teaser` were empty, so links shared on LinkedIn/X had no picture.
   - Done: `og_image: "favicon.jpg"` (same picture as `profile.png`, which is actually a JPEG with a `.png` extension), `twitter.username: "ADCDIII"` (required for X card tags), and `_includes/seo.html` now emits an `og:image` tag and absolute image URLs.
   - Still open: the image is a 400×400 square, so previews show a small thumbnail; a 1200×630 banner would give the large preview.
-- **1.e** ⬜ **Web manifest still names the template icon.** `images/manifest.json` has `"name": "OOjs UI icon academic-progressive"`; rename to the site name. The comment in `_includes/head/custom.html` about the favicon source is also stale since the favicon was changed.
+- **1.e** ✅ **Web manifest still names the template icon.** `images/manifest.json` had `"name": "OOjs UI icon academic-progressive"`, and `_includes/head/custom.html` had a stale comment about the template favicon source.
+  - Done: manifest `name` and `short_name` set to `"Ryan S."`; stale comment removed.
 
 ## 2. CV page (`_pages/cv.md`)
 
@@ -25,12 +27,14 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 - **2.c** ⬜ **Empty "Teaching" section.** `site.teaching` does not exist; remove the section.
 - **2.d** ⬜ **Skills section is thin and oddly structured:** "Solana" sits outside "Smart contract development", and there is nothing on security (audits, pentest, cryptography), tooling (Foundry, Hardhat, Slither, Aderyn) or other chains you present in talks (Tezos, Aztec, Zama FHE, Stellar/Soroban…). This is the section recruiters scan first.
 - **2.e** ⬜ **Work experience summary is outdated relative to your talks.** The Taurus entry does not mention privacy work (CMTAT-Confidential with FHE, Aztec), the CMTAT audit process, or conference speaking (EthCC, BSA EPFL, Black Alps, CMTA x OpenZeppelin).
-- **2.f** ⬜ **Typos / consistency:** "Analyze of smart contracts" → "Analysis of smart contracts"; "position:" / "company:" lowercase vs "Company:" / "Position:" elsewhere; "Duration: 12/2022 -" duplicates the date already in the heading; "A rust-based application to store password securely" → "Rust-based application to store passwords securely".
+- **2.f** ✅ **Typos / consistency:** "Analyze of smart contracts", lowercase "position:" / "company:", "Duration:" lines duplicating the dates in the headings, "A rust-based application to store password securely".
+  - Done: "Analysis of smart contracts", "SmartPy (Tezos)", "Company:" / "Position:" capitalised, duplicate "Duration:" lines removed (Taurus heading now reads "12/2022 - present"), "Rust-based application to store passwords securely".
 - **2.g** ⬜ **Consider a downloadable PDF CV** in `files/` linked at the top of the page.
 
 ## 3. Home page (`_pages/about.md`)
 
-- **3.a** ⬜ **"Main article" section has an orphan sentence:** "Here my main articles on Blockchain:" is followed by nothing. Also "Main article" → "Main articles" and "Here my" → "Here are my".
+- **3.a** ✅ **"Main article" section had an orphan sentence:** "Here my main articles on Blockchain:" was followed by nothing.
+  - Done: sentence and extra blank lines removed; heading renamed "Main articles".
 - **3.b** ⬜ **Duplicated content:** the article lists are copied from `publications.md` but are already out of date (the 2025 Taurus articles on conditional transfers and ERC-1400 are missing). Keep one source of truth: a short "highlights" list on the home page and link to `/publications/`.
 - **3.c** ✅ **No mention of talks.**
   - Done: new "Talks" section with EthCC 2026 and Black Alps 2024 (talk page, video and slides links) and a link to `/talks/`.
@@ -95,9 +99,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 ## 10. Suggested next quick wins
 
-1. Fix the repository URL (1.c) and the web manifest name (1.e).
-2. Remove "43 slack teams" and the empty Teaching and Publications sections from the CV (2.a–2.c).
-3. Fix the orphan sentence on the home page (3.a).
-4. Add `talk_type` to talks or fix the layout so venue/location appear (6.a).
-5. Delete the template pages, placeholder post, `_publications/` and sample files; point "Blog Posts" to Access Denied (7.a–7.h).
-6. Rewrite or remove the Terms page; drop unused MathJax/Plotly/Mermaid scripts (8.a, 9.a).
+1. Remove "43 slack teams" and the empty Teaching and Publications sections from the CV (2.a–2.c).
+2. Add `talk_type` to talks or fix the layout so venue/location appear (6.a).
+3. Delete the template pages, placeholder post, `_publications/` and sample files; point "Blog Posts" to Access Denied (7.a–7.h).
+4. Rewrite or remove the Terms page; drop unused MathJax/Plotly/Mermaid scripts (8.a, 9.a).

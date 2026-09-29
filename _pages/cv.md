@@ -20,7 +20,7 @@ Education
   - Summary: The IS orientation trains engineers with advanced skills in security to give them a global "attack-defense" vision of computer systems. These specialists analyze the security of complex computer systems (threat analysis and intrusion tests), design secure architectures, select and develop the appropriate protection measures.
   - Project
 
-  [Password manager](https://github.com/rya-sge/password-manager): A rust-based application to store password securely.
+  [Password manager](https://github.com/rya-sge/password-manager): Rust-based application to store passwords securely.
 
   [D-flip flop](https://github.com/AMT-D-Flip-Flop/Authentication) (group project): Authentication microservice with Spring Boot Java
 
@@ -30,16 +30,15 @@ Education
 
 Work experience
 ======
-### Security engineer [12/2022 - ]
+### Security engineer [12/2022 - present]
 
 - Company: [Taurus SA](https://www.taurushq.com)
-- position: Security engineer
-- Duration: 12/2022 - 
+- Position: Security engineer
 - Summary: 
 
 Development of smart contracts (Solidity) with Foundry, Hardhat and Truffle.
 
-Analyze of smart contracts written in Solidity and SmartPy(Tezos)
+Analysis of smart contracts written in Solidity and SmartPy (Tezos)
 
 Consultant for clients on issues related to Blockchain and smart contracts
 
@@ -65,9 +64,8 @@ Several publications on the Taurus blog on Tokenization and cross-chain bridge (
 
 ### Penetration Tester [10/2021 - 02/2022]
 
-- company: Confidential
+- Company: Confidential
 - Position: Penetration Tester (external consultant / internship)
-- Duration: 10/2021 - 02/2022
 - Summary: Security audit in a software company carried out as part of a course at HEIG-VD, about 200 hours performed
 
 Skills
