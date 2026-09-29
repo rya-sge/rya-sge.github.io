@@ -23,7 +23,7 @@ Personal portfolio website of Ryan S. (AccessDenied404 — security engineer / b
 - **Content vs. theme:** personal content lives in `_pages/`, `_talks/`, `_config.yml` (author sidebar) and `_data/navigation.yml`. Everything in `_layouts/`, `_includes/`, `_sass/`, `assets/` is template code — change it only when the task is about layout/styling.
 - **Home page:** `_pages/about.md` has `permalink: /` (redirects from `/about/`).
 - **Collections:** only `talks` is declared in `_config.yml` (`output: true`, layout `talk`). There are no posts or publications collections: articles are listed by hand in `_pages/publications.md`, and the blog lives on the external Access Denied site.
-- **Header menu:** order and entries come from `_data/navigation.yml` (Articles, Talks, Portfolio, Blog Posts, CV); "Blog Posts" is an absolute link to the external blog.
+- **Header menu:** order and entries come from `_data/navigation.yml` (Publications, Talks, Portfolio, Blog Posts, CV); "Blog Posts" is an absolute link to the external blog.
 - **Front-matter defaults:** set per type (posts / pages / talks) in `_config.yml` `defaults`; new pages normally only need `title`, `permalink`, `layout: archive` or default `single`.
 - **Files:** anything in `files/` is published at `/files/<name>`. Talk slides go in `files/slides/` with lowercase, space-free names and are linked from the talk page as `Slides: [PDF](/files/slides/<name>.pdf)`.
 - **GitHub Pages safe mode:** only whitelisted plugins work (`jekyll-feed`, `jekyll-gist`, `jekyll-paginate`, `jekyll-sitemap`, `jekyll-redirect-from`, `jemoji`). Do not add other plugins.
@@ -40,8 +40,8 @@ _data/
   ui-text.yml
 _pages/
   about.md               # home page (permalink /)
-  cv.md                  # CV (/cv/), links to /articles/ and lists site.talks
-  publications.md        # hand-written articles list (/articles/, redirects from /publications/)
+  cv.md                  # CV (/cv/), links to /publications/ and lists site.talks
+  publications.md        # hand-written publications list (/publications/, redirects from /articles/)
   portfolio.md           # projects (e.g. CMTAT)
   talks.html             # talks index, iterates site.talks
   year-archive.html, category-archive.html, tag-archive.html, sitemap.md, 404.md, terms.md, …

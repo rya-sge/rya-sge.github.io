@@ -111,7 +111,7 @@ Skills
 
 Publications
 ======
-See [Articles](/articles/) for my articles on the Taurus blog and on my blog Access Denied.
+See [Publications](/publications/) for my articles on the Taurus blog and on my blog Access Denied.
 
 Talks
 ======

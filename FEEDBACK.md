@@ -25,7 +25,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 - **2.a** ✅ **Leftover template text:** "Service and leadership — Currently signed in to 43 different slack teams" (`cv.md:99-101`). Remove the section or replace it (e.g. Y-CTF co-founder, conference talks).
   - Done: "Service and leadership" section removed (Y-CTF is already listed under Education).
 - **2.b** ✅ **Empty "Publications" section.** It loops over `site.publications`, but `_publications` is not declared as a collection in `_config.yml`, and the files in it are template placeholders ("Paper Title Number 1…"). The heading therefore renders with nothing under it. Either list the Taurus articles directly (as in `publications.md`) or remove the section.
-  - Done: the `site.publications` loop replaced by a link to `/articles/`.
+  - Done: the `site.publications` loop replaced by a link to `/publications/`.
 - **2.c** ✅ **Empty "Teaching" section.** `site.teaching` does not exist; remove the section.
   - Done: section removed.
 - **2.d** 🟡 **Skills section is thin and oddly structured:** "Solana" sits outside "Smart contract development", and there is nothing on security (audits, pentest, cryptography), tooling (Foundry, Hardhat, Slither, Aderyn) or other chains you present in talks (Tezos, Aztec, Zama FHE, Stellar/Soroban…). This is the section recruiters scan first.
@@ -58,7 +58,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 - **4.b** ⬜ Talks and slide decks are publications too; add a short "Talks" section linking to `/talks/` or list the four decks.
 - **4.c** ⬜ The personal blog section only lists five articles; if some newer ones (e.g. the Bitcoin keys, MPC and Winternitz OTS posts linked from the Black Alps talk page) matter, add them.
 - **4.d** ✅ The page title "Publications" with a section "My main personal articles" — consider renaming the nav item to "Articles" since there are no academic papers.
-  - Done: page and nav item renamed "Articles", now at `/articles/`; `/publications/` redirects there (`jekyll-redirect-from`).
+  - Decided: the name "Publications" is kept, because "Articles" next to the "Blog Posts" menu item (which links to Access Denied) read as two names for the same thing. The page stays at `/publications/`; `/articles/` redirects there in case that address was shared.
 
 ## 5. Portfolio page (`_pages/portfolio.md`)
 
