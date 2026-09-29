@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 26 done, 2 partially done, 22 open.
+**Progress:** 29 done, 3 partially done, 18 open.
 
 ## 1. High priority — visible on every page
 
@@ -65,14 +65,18 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 - **5.a** ⬜ **Heading levels are inconsistent:** "Smart contract" uses a level-1 `======` heading with `####` projects, while "Rust" uses `##` with `###` projects.
 - **5.b** ⬜ **CCIP Sender and IncomeVault have identical durations** (12/2023 — 05/2024); check that this is right.
 - **5.c** ⬜ **IncomeVault skills list "Stablecoin"** although it is about dividends/coupons; "Tokenization · Corporate actions" would fit better. "build with CMTAT" → "built with CMTAT"; "Publish a blog post" → "Published a blog post".
-- **5.d** ⬜ **Missing recent projects** you present in talks: CMTAT-Confidential (FHE / ERC-7984), CMTAT cross-chain, Aztec version, and the TERC-20 / TERC-721 / TERC-1155A repos listed in the CV.
-- **5.e** ⬜ "**Skills:** cryptography security" → "Rust · Cryptography · Security".
+- **5.d** 🟡 **Missing recent projects** you present in talks: CMTAT-Confidential (FHE / ERC-7984), CMTAT cross-chain, Aztec version, and the TERC-20 / TERC-721 / TERC-1155A repos listed in the CV.
+  - Done: CMTAT Confidential, CMTAT LayerZero, TERC-20 and TERC-721 were added earlier; CMTAT CCIP (CMTAT bridged with Chainlink CCIP, `rya-sge/CMTAT-CCIP`) and TERC-1155A added now.
+  - Still open: the Aztec version of CMTAT is not listed, because nothing in the repository shows what role you had in it.
+- **5.e** ✅ "**Skills:** cryptography security" → "Rust · Cryptography · Security".
+  - Done: both Rust projects (Password manager, 2FA with YubiKey) now use "Rust · Cryptography · Security".
 
 ## 6. Talks
 
 - **6.a** ⬜ **Talk pages do not show venue and location.** `_layouts/talk.html:38` only prints the "Talk at venue, location" line when `page.talk_type` is set, but all talk files use `type`. Either add `talk_type: "Talk"` to each file or change the layout to test `page.type`.
 - **6.b** ⬜ `_config.yml` has `talkmap_link: false` and the talkmap notebook is absent, but `.github/workflows/scrape_talks.yml` still runs on every change to `_talks/` and will fail (it executes `talkmap.ipynb`). Delete the workflow or add the notebook.
-- **6.c** ⬜ The Black Alps talk page uses `\-` escaped dashes and two `lnkd.in` short links; replace these with normal bullet lists and the full blog URLs (short links hide the destination and can expire). A stray line break splits the Trezor URL (`_talks/2024-11-07-crypto-wallet.md`).
+- **6.c** ✅ The Black Alps talk page uses `\-` escaped dashes and two `lnkd.in` short links; replace these with normal bullet lists and the full blog URLs (short links hide the destination and can expire). A stray line break splits the Trezor URL (`_talks/2024-11-07-crypto-wallet.md`).
+  - Done: related posts rewritten as bullet lists with the post titles as links; the two `lnkd.in` links replaced by the full blog URLs (Winternitz OTS, EIP-6780), both checked to load; the split Trezor URL fixed.
 - **6.d** ⬜ Consider adding a thumbnail (`header.teaser`) per talk for a nicer Talks page.
 - **6.e** ⬜ The EthCC 2026 location ("Cannes, France") was not taken from a source in the repo; confirm it.
 
@@ -109,7 +113,8 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
   - Done: the polyfill script (`cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js`) removed; MathJax 3 does not need it. This is Cloudflare's mirror, not the compromised `polyfill.io` domain, so visitors were not exposed.
   - Still open: MathJax, Plotly and Mermaid are still loaded on every page.
 - **9.b** ⬜ `publication_category` in `_config.yml` (Books / Journal Articles / Conference Papers) is unused.
-- **9.c** ⬜ The large academic-profile block in `_config.yml` (arxiv, pubmed, scopus…) is empty and can be trimmed for readability.
+- **9.c** ✅ The large academic-profile block in `_config.yml` (arxiv, pubmed, scopus…) is empty and can be trimmed for readability.
+  - Done: all empty fields removed from the `author` block (academic, repository and social profiles); the comment above it points to `_includes/author-profile.html` for the full list of supported fields.
 - **9.d** ⬜ Check that `bluesky: "ad403"` is the right handle (other handles are `AccessDenied404` / `ADCDIII`).
 - **9.e** ⬜ Slide PDFs: `2024-blackalps-crypto-wallet.pdf` is 6.6 MB; compressing it would make it faster to open on mobile.
 

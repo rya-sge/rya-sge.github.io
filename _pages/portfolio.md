@@ -70,6 +70,17 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 
 **Skills:** Solidity · LayerZero · Cross-chain bridge
 
+#### CMTAT CCIP [Taurus SA / CMTA / Solidity]
+
+> Example of how a CMTA Token can be bridged with Chainlink CCIP, using the Cross-Chain Token (CCT) standard that CMTAT already implements.
+
+- Role: Smart Contract Developer
+- Duration: 11/2025
+- [GitHub project](https://github.com/rya-sge/CMTAT-CCIP)
+- Foundry scripts to deploy a CMTAT token on two testnets (e.g. Sepolia and Avalanche Fuji) and bridge tokens between them with CCIP, adapted from the Chainlink examples repository.
+
+**Skills:** Solidity · Foundry · Chainlink CCIP · Cross-chain bridge
+
 #### IncomeVault [Taurus SA / CMTA / Solidity]
 
 > IncomeVault to distribute dividend on-chain, build with CMTAT
@@ -120,6 +131,18 @@ Open-source projects of the CMTAT ecosystem, developed as part of my work at Tau
 - [GitHub project](https://github.com/taurushq-io/TERC-20)
 
 **Skills:** Solidity · ERC-20 · Upgradeable proxy · Smart contract security
+
+#### TERC-1155A [Taurus SA / Solidity]
+
+> ERC-1155 implementation supporting fungible, non-fungible and semi-fungible tokens in a single contract.
+
+- Role: Smart Contract Developer
+- Duration: developed in 2023, published in 07/2025
+- [GitHub project](https://github.com/taurushq-io/TERC1155A)
+- Proxy support (upgradeable), gasless transactions with ERC-2771, `mint` and `mintBatch`, URI management, role-based access control and ERC-173 ownership.
+- Audited; built with OpenZeppelin v4.
+
+**Skills:** Solidity · ERC-1155 · Upgradeable proxy · Smart contract security
 
 #### Chainlink CCIP Sender [Taurus SA / Solidity]
 
@@ -187,7 +210,7 @@ When a user creates an account on the application, an `RSA` key pair is generate
 - Passwords added by the user are encrypted with their RSA public key and stored in `passwords.db`. 
 - To share a password with another user, the sender uses the recipient’s public key for encryption.
 
-**Skills:** cryptography security
+**Skills:** Rust · Cryptography · Security
 
 #### 2FA with YubiKey [Rust]
 
@@ -195,7 +218,7 @@ When a user creates an account on the application, an `RSA` key pair is generate
 
 Two-factor authentication (2FA) combining a password and a [YubiKey](https://www.yubico.com/), implemented with HMAC.
 
-**Skills:** cryptography security
+**Skills:** Rust · Cryptography · Security
 
 #### D-Flip-Flop e-commerce app [Java Spring Boot]
 

@@ -19,65 +19,23 @@ baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "rya-sge/rya-sge.github.io" # owner/name, used by GitHub Pages metadata
 
 # Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+#               Only the fields in use are listed; /_includes/author-profile.html shows every supported
+#               field (e.g. orcid, googlescholar, mastodon, youtube), which can be added here when needed.
 author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Ryan S. - AccessDenied404"
-  pronouns         : # example: "she/her"  
   bio              : "Security engineer | Blockchain Developer"
-  location         : 
   employer         : "Taurus SA"
   uri              : "https://rya-sge.github.io/access-denied/"
-  email            : 
-
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : 
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : 
-  semantic         : # URL
-  pubmed           : 
-  researchgate     : # URL
-  scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
   github           : "rya-sge"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  artstation       : # Username
-  bluesky          : "ad403" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
+  bluesky          : "ad403"
   linkedin         : "ryan-sge"
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
   twitter          : "ADCDIII"
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
