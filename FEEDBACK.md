@@ -4,7 +4,7 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 **Status legend:** ✅ Done · 🟡 Partially done · ⬜ Open
 
-**Progress:** 12 done, 4 partially done, 34 open.
+**Progress:** 15 done, 4 partially done, 31 open.
 
 ## 1. High priority — visible on every page
 
@@ -54,7 +54,8 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 - **4.a** ⬜ "Token Transfer Management … ERC-1404" has `(ERC-1404)` where the year should be (`publications.md:23`).
 - **4.b** ⬜ Talks and slide decks are publications too; add a short "Talks" section linking to `/talks/` or list the four decks.
 - **4.c** ⬜ The personal blog section only lists five articles; if some newer ones (e.g. the Bitcoin keys, MPC and Winternitz OTS posts linked from the Black Alps talk page) matter, add them.
-- **4.d** ⬜ The page title "Publications" with a section "My main personal articles" — consider renaming the nav item to "Articles" since there are no academic papers.
+- **4.d** ✅ The page title "Publications" with a section "My main personal articles" — consider renaming the nav item to "Articles" since there are no academic papers.
+  - Done: page and nav item renamed "Articles", now at `/articles/`; `/publications/` redirects there (`jekyll-redirect-from`).
 
 ## 5. Portfolio page (`_pages/portfolio.md`)
 
@@ -89,8 +90,10 @@ Review of the site content and configuration as of 2026-09-29, based on the repo
 
 ## 8. Privacy / terms page (`_pages/terms.md`)
 
-- **8.a** ⬜ It claims the site uses **Disqus comments, Google Analytics and third-party advertisers**, none of which are configured. The page is dated 2016. Either rewrite it to reflect reality (GitHub Pages hosting; GitHub logs IPs; no cookies or analytics) or remove it.
-- **8.b** ⬜ Related: `_config.yml` defaults set `comments: true` for posts with no comment provider configured — harmless, but can be set to `false`.
+- **8.a** ✅ It claims the site uses **Disqus comments, Google Analytics and third-party advertisers**, none of which are configured. The page is dated 2016. Either rewrite it to reflect reality (GitHub Pages hosting; GitHub logs IPs; no cookies or analytics) or remove it.
+  - Done: rewritten — Disqus, Google Analytics and third-party advertisers removed; the page now describes GitHub Pages hosting, the scripts loaded from cdnjs and jsDelivr, and the theme choice kept in local storage (no cookies).
+- **8.b** ✅ Related: `_config.yml` defaults set `comments: true` for posts with no comment provider configured — harmless, but can be set to `false`.
+  - Done: set to `false`.
 
 ## 9. Technical / SEO
 
