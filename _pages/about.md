@@ -20,6 +20,12 @@ I hope you can find your happiness among this content. If you have any questions
 Before jumping on the crypto wagon, I have participated in my free time in Capture The Flags (CTFs) and solved challenges on [TryHackMe](https://tryhackme.com/p/Carcajou) and [Root Me](https://www.root-me.org/AccessDenied404?lang=eng).
 
 
+### Talks
+
+- [CMTAT: Engineering a Security Token on EVM, with a Path to Privacy](/talks/2026-03-31-ethcc-cmtat) — EthCC 2026, Cannes ([video](https://www.youtube.com/watch?v=m13ZelRp2vY), [slides](/files/slides/2026-ethcc-cmtat.pdf))
+- [Crypto Wallet - What Could Go Wrong?](/talks/2024-11-07-crypto-wallet) — Black Alps 2024 ([video](https://www.youtube.com/watch?v=wJryrYR_NJY), [slides](/files/slides/2024-blackalps-crypto-wallet.pdf))
+
+See all [talks and presentations](/talks/).
 
 ### Main article
 
